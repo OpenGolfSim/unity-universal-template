@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.opengolfsim.tools": {
+      "version": "https://github.com/OpenGolfSim/unity-course-scripts.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.1"
+      },
+      "hash": "3fd4769088410d65ba6fd046ef15b3c02a877fd0"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.9",
       "depth": 0,
@@ -37,6 +46,13 @@
         "com.unity.nuget.mono-cecil": "1.11.5",
         "com.unity.test-framework.performance": "3.0.3"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
